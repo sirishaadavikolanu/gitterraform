@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "cicd_bucket" {
-  bucket = "my-cicd-demo-bucket-xyz123" # Make this unique!
+  bucket = "my-cicd-demo-bucket" # Make this unique!
 }
 terraform {
      required_providers {
