@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_s3_bucket" "cicd_bucket" {
+resource "aws_s3_bucket" "bucket1-demo1" {
   bucket = "s3-bucket1-demo1" # Make this unique!
 }
 terraform {
